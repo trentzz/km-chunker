@@ -1,5 +1,5 @@
 [project]
-name = "km-chunker"
+name = "kmtools"
 version = "0.1.0"
 description = ""
 authors = [
@@ -13,10 +13,10 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "km_chunker", from = "src"}]
+packages = [{include = "kmtools", from = "src"}]
 
 [project.scripts]
-km-chunker = "km_chunker.km_chunker:cli"
+kmtools = "kmtools.kmtools:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
